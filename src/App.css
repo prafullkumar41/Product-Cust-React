@@ -1,38 +1,72 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  padding: 20px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header {
+  
+  text-align: center;
+  font-size: 17px;
+  color: rgb(199, 216, 48);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name-item{
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
 }
+
+.processing{
+  cursor: pointer;
+  color: rgb(74, 130, 214);
+}
+
+
+
+.ordername{
+  cursor: pointer;
+
+}
+
+.icon{
+  font-size: x-small;
+  padding-left: 10px;
+  cursor: pointer;
+
+}
+
+button{
+  color:black;
+  background-color: gray;
+  padding-top: 5px;
+  margin-top: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+.product-details{
+  padding-left: 200px ;
+}
+
+
+.customer-details{
+  padding-left: 20px;
+}
+
+
+.layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.fa-edit{
+  color: crimson;
+}
+
