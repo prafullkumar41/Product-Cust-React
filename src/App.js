@@ -95,7 +95,7 @@ const productRefetch = (data) => {
         
         <Customer customerName={customerName} nameClicked={loadName}/>  
         <div>
-        <OrderDetails2 orderData={orderData} 
+        <OrderDetails orderData={orderData} 
             selectedName={selectedName}
             orderDataRefetch={orderDataRefetch}
             orderNameClicked={orderNameClicked}
