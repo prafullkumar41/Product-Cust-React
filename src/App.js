@@ -5,8 +5,7 @@ import {faAssistiveListeningSystems} from '@fortawesome/free-solid-svg-icons';
 import Customer from './component/customer.comoponent';
 import OrderDetails from './component/order.component';
 import Product from './component/product.component';
-import Quantity from './component/quantityform.component'
-import OrderDetails2 from './component/order.component-with-missing-functionality';
+import Quantity from './component/quantityform.component';
 
 function App() {
   const [customerName, setcustomerName] = useState([])
